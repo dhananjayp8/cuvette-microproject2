@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Inter&family=DM+Sans&family=Roboto:wght@400;500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background: #6f6af7;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  padding: 2rem;
+}
+
+nav .title {
+  font-family: Delius Unicase;
+  width: 215px;
+  height: 63px;
+  margin-top: 27px;
+  margin-left: 44px;
+}
+.title h3 {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 79px;
+  color: #ffffff;
+}
+.nav-link ul {
+  display: flex;
+  justify-content: space-between;
+}
