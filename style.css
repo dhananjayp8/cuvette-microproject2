@@ -8,17 +8,17 @@
 nav {
   background: #6f6af7;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   position: sticky;
-  top: 0;
-  padding: 2rem;
+  /* top: 0; */
+  padding: 1.5rem;
 }
 
 nav .title {
   font-family: Delius Unicase;
   width: 215px;
   height: 63px;
-  margin-top: 27px;
+  margin-top: 18px;
   margin-left: 44px;
 }
 .title h3 {
@@ -27,7 +27,62 @@ nav .title {
   line-height: 79px;
   color: #ffffff;
 }
+.nav-link {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
 .nav-link ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+ul li {
+  color: #ffffff;
+  padding: 18px;
+  font-size: 20px;
+  margin-top: 18px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: transparent;
+}
+.search-bar-text {
+  border-radius: 63px;
+  outline: none;
+  border-style: none;
+  background: #fff;
+  height: 3.5rem;
+  width: 19rem;
+  padding: 24px 20px;
+}
+
+::placeholder {
+  color: #9f9f9f;
+  font-family: DM Sans;
+  font-size: 20px;
+  /* font-style: normal; */
+  font-weight: 400;
+  text-align: left;
+  line-height: 31px;
+}
+
+.search-btn {
+  background: transparent;
+  border-style: none;
+  padding-bottom: -10px;
+  margin-left: -50px;
+  cursor: pointer;
+}
+.hamburger {
+  width: 67px;
+  height: 50px;
+  margin-left: 90px;
+  margin-top: 30px;
+  padding: 10px;
+}
+.hamburger img {
+  height: 40px;
 }
