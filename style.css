@@ -96,6 +96,7 @@ ul li a {
 /* Aside Social Icons */
 aside {
   margin-right: 1.2rem;
+  position: sticky;
 }
 .social-icons {
   position: sticky;
