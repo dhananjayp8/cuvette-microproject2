@@ -94,7 +94,7 @@ ul li a {
 
 /* Aside Social Icons */
 aside {
-  margin-right: 1.5rem;
+  margin-right: 2rem;
 }
 .social-icons {
   position: sticky;
@@ -107,6 +107,10 @@ aside {
   width: 70px;
   height: 154px;
   padding-right: 13px;
+}
+.social-icons img {
+  height: 50px;
+  width: 50px;
 }
 
 #wp-logo {
