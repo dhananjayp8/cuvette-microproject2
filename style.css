@@ -114,6 +114,12 @@ aside {
   height: 70px;
   width: 70px;
 }
+.social-icons a {
+  position: sticky;
+  margin: 0;
+  text-align: right;
+  cursor: pointer;
+}
 
 #wp-logo {
   border: 2px solid black;
