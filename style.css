@@ -87,7 +87,7 @@ ul li {
   height: 50px;
 }
 
-/* Social Icons */
+/* Aside Social Icons */
 
 .social-icons {
   position: sticky;
@@ -96,17 +96,49 @@ ul li {
   bottom: 100px;
   display: flex;
   flex-direction: column;
-  margin-top: 120px;
-  width: 100px;
+  margin-top: 117px;
+  width: 70px;
   height: 154px;
-  /* padding: 0; */
+  padding-right: 13px;
 }
 
-.social-icons li img {
-  /* width: 100%; */
-  height: 85px;
-}
 #wp-logo {
-  border: 3px solid black;
+  width: 100%;
+  border: 2px solid black;
   border-radius: 10px;
+}
+
+/* Main section */
+.hero {
+  width: 90vw;
+  top: 20rem;
+  margin: 5rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.left-section {
+  width: 40%;
+  height: 507px;
+}
+.right-section {
+  width: 60%;
+  height: 507px;
+  background-color: #e5d8ff;
+  border-radius: 20px;
+}
+.hero-text {
+  padding: 2rem;
+  font-family: DM Sans;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 51.82px;
+  text-align: left;
+}
+/* SECTION 2 */
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  top: 20rem;
+  margin: 5rem 2.5rem;
 }
