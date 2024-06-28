@@ -47,6 +47,7 @@ ul li {
 }
 ul li a {
   text-decoration: none;
+  color: #ffffff;
 }
 .search-bar {
   display: flex;
@@ -94,7 +95,7 @@ ul li a {
 
 /* Aside Social Icons */
 aside {
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 }
 .social-icons {
   position: sticky;
@@ -114,7 +115,6 @@ aside {
 }
 
 #wp-logo {
-  width: 100%;
   border: 2px solid black;
   border-radius: 10px;
 }
